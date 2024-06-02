@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(90deg, #000035,	#000042, #3F3F89 );
+    color: #d1d1d1;
+    font-family: tahoma;
+  }
+  
+  form{
+    max-width:70%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    max-width: 700px;
+    min-width: 300px;
+  }
+  
+  h1, p{
+    text-align: center;
+    margin: 15px;
+  }
+  input, textarea, select{
+    display:block;
+    width:100%;
+    border-radius: 3 px;
+    border: #2A2A48;
+    margin: 5px 3px;
+    background-color: #2A2A48;
+    color: #d1d1d1;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select
+  {
+    height: 1.6rem;
+    font-size:1.2rem;
+  }
+  label{
+    display:block;
+    margin: 0.3rem 0;
+  }
+  
+  .genre-label{
+    margin-top:30px;
+  }
+  fieldset{
+    margin: 10px 0;
+    border: 2px solid #32216D;
+    box-shadow: 0 0 2px #32216D;
+    border-radius:8px;
+  }
+  
+  .inline{
+    width:unset;
+    display: inline;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"]{
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 200ms ease-in-out;
+  }
+  input[type="submit"]:hover{
+    background: #d1d1d1;
+    color: #32216D;
+  }
